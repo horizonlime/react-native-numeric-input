@@ -12,7 +12,7 @@ function _handlePress(callback){
 }
 
 
-const Button = ({ onPress = (), ...props }) => {
+const Button = (props) => {
     return (
         Platform.OS === 'ios'
         ? <TouchableOpacity disabled={props.disabled} style={props.style} onPress={() => _handlePress(props.onPress)}>{props.children}</TouchableOpacity> 
