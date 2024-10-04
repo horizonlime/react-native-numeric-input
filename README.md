@@ -10,7 +10,7 @@ a cross platform stylish numeric input for react native
 
 ## Working example
 you can check out the very simple react native example app
-just click [here](https://github.com/himelbrand/react-native-numeric-input/tree/master/Example) and follow the instructions
+just click [here](https://github.com/horizonlime/react-native-numeric-input/tree/master/Example) and follow the instructions
 enjoy!
 
 ## Installation
@@ -18,28 +18,28 @@ enjoy!
 v1.9.0
 #### if you have react-native-vector-icons installed in your project
 ```bash
-yarn add react-native-numeric-input
+yarn add @horizonlime/react-native-numeric-input
 ```
 or with npm
 ```bash
-npm install react-native-numeric-input --save
+npm install @horizonlime/react-native-numeric-input --save
 ```
 #### if you don't have react-native-vector-icons installed in your project
 ```bash
-yarn add react-native-numeric-input react-native-vector-icons
+yarn add @horizonlime/react-native-numeric-input react-native-vector-icons
 react-native link
 ```
 
 or with npm
 
 ```bash
-npm install react-native-numeric-input react-native-vector-icons --save
+npm install @horizonlime/react-native-numeric-input react-native-vector-icons --save
 react-native link
 ```
 if you're experiencing issues with `react-native link` which is used to install react-native-vector-icons
 please refer to [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) to see manual installation steps
 
-[link to npm page](https://www.npmjs.com/package/react-native-numeric-input)
+[link to npm page](https://www.npmjs.com/package/@horizonlime/react-native-numeric-input)
 
 ## Responsive default size
 
@@ -55,7 +55,7 @@ so you can create your own responsive size function and use it to set your custo
 
 ### import Component
 ```javascript
-import NumericInput from 'react-native-numeric-input'
+import NumericInput from '@horizonlime/react-native-numeric-input'
 ```
 ### Basic Usage
 ```javascript
