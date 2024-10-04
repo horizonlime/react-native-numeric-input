@@ -20,9 +20,7 @@
     "input",
     "numeric"
   ],
-  "author": {
-    "name": "Barb Perez",
-  },
+  "author": "Barb Perez",
   "homepage": "https://github.com/horizonlime/react-native-numeric-input",
   "bugs": {
     "url": "https://github.com/horizonlime/react-native-numeric-input/issues"
