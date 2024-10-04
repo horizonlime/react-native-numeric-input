@@ -36,5 +36,6 @@
   },
   "peerDependencies": {
     "react-native-vector-icons": "^10.*"
-  }
+  },
+  "private": "false",
 }
